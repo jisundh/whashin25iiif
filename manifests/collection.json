@@ -1,0 +1,13 @@
+{
+  "id" : "https://jisundh.github.io/whashin25iiif/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in jisundh/whashin25iiif project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://jisundh.github.io/whashin25iiif/manifests/manifest25.json",
+    "label" : "IIIF-based research on 1930s Korean materials: focusing on Whashin Department Store"
+  } ]
+}
