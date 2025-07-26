@@ -1,0 +1,461 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://jisundh.github.io/whashin25iiif/manifests/manifest25.json",
+  "@type" : "sc:Manifest",
+  "label" : "IIIF-based research on 1930s Korean materials: focusing on Whashin Department Store",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/152469503/aaa90ae9752333388974028533c0cf8e/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
+  "metadata" : [ {
+    "label" : "Source",
+    "value" : "National Library of Korea; National Institute of Korean History; Seoul Museum Of History; National Museum of Korea."
+  }, {
+    "label" : "Language",
+    "value" : "Korean, Japanese, English"
+  }, {
+    "label" : "PublishDate",
+    "value" : "20231129"
+  }, {
+    "label" : "Publisher",
+    "value" : "jisun Kim"
+  } ],
+  "description" : [ {
+    "@value" : "I collected articles, images, diaries, postcards and video materials that mention or feature Whashin Department Store.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "sequences" : [ {
+    "@id" : "http://a35f020b-0802-4a53-a66c-a5e91f105c99",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://153eb355-d65f-472a-a5c6-39f3a1f8ec8c",
+      "@type" : "sc:Canvas",
+      "label" : "[Magazine]193510 Sam Cheon Ri 142p",
+      "height" : 2485,
+      "width" : 1488,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6829c301-ae28-4a5e-9901-ad44c4c80f9c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/sam-cheon-ri-19351001-142/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/sam-cheon-ri-19351001-142",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2485,
+          "width" : 1488
+        },
+        "on" : "http://153eb355-d65f-472a-a5c6-39f3a1f8ec8c"
+      } ],
+      "metadata" : [ {
+        "label" : "License",
+        "value" : "Copyright © National Institute of Korean History All Rights Reserved."
+      }, {
+        "label" : "SourceUrl",
+        "value" : "https://db.history.go.kr/id/ma_016_0510_0270"
+      }, {
+        "label" : "PublishDate",
+        "value" : "19351001"
+      }, {
+        "label" : "KoName",
+        "value" : "삼천리"
+      }, {
+        "label" : "ChiName",
+        "value" : "三千里"
+      }, {
+        "label" : "EngName",
+        "value" : "SamCheonRi"
+      }, {
+        "label" : "Type",
+        "value" : "Magazine"
+      }, {
+        "label" : "Page",
+        "value" : "142"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://jisundh.github.io/whashin23iiif/annotations/fa5865e866086496bfb24a2137b6c486.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ]
+    }, {
+      "@id" : "http://fa347023-75a8-4b86-a4bd-9786a836f593",
+      "@type" : "sc:Canvas",
+      "label" : "[Magazine]193510 Sam Cheon Ri 143p",
+      "height" : 2485,
+      "width" : 1488,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://4c570b37-af9e-4694-9869-abdefde0042f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/samcheonri19351001_143_202308/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/samcheonri19351001_143_202308",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2485,
+          "width" : 1488
+        },
+        "on" : "http://fa347023-75a8-4b86-a4bd-9786a836f593"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "License",
+        "value" : "Copyright © National Institute of Korean History All Rights Reserved."
+      }, {
+        "label" : "SourceUrl",
+        "value" : "https://db.history.go.kr/id/ma_016_0510_0270"
+      }, {
+        "label" : "Page",
+        "value" : "143"
+      }, {
+        "label" : "PublishDate",
+        "value" : "19351001"
+      }, {
+        "label" : "KoName",
+        "value" : "삼천리"
+      }, {
+        "label" : "ChiName",
+        "value" : "三千里"
+      }, {
+        "label" : "EngName",
+        "value" : "SamCheonRi"
+      }, {
+        "label" : "Type",
+        "value" : "Magazine"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://jisundh.github.io/whashin23iiif/annotations/392fd371694738e126500b753a3496b8.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ]
+    }, {
+      "@id" : "http://c66df53a-e8c5-4ffd-8e0c-c5eef96b587d",
+      "@type" : "sc:Canvas",
+      "label" : "[Newspaper]19371009 Maeil Sinbo 3p",
+      "height" : 6428,
+      "width" : 4719,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://be5ce22c-f0c0-4020-b6a2-a54dfd8434c3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/maeil19371009_202308/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/maeil19371009_202308",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 6428,
+          "width" : 4719
+        },
+        "on" : "http://c66df53a-e8c5-4ffd-8e0c-c5eef96b587d"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "License",
+        "value" : "Copyright © National Library of Korea All Rights Reserved."
+      }, {
+        "label" : "SourceUrl",
+        "value" : "https://lod.nl.go.kr/page/CNTS-00094858705"
+      }, {
+        "label" : "Page",
+        "value" : "3"
+      }, {
+        "label" : "PublishDate",
+        "value" : "19371009"
+      }, {
+        "label" : "KoName",
+        "value" : "매일신보"
+      }, {
+        "label" : "ChiName",
+        "value" : "每日申報"
+      }, {
+        "label" : "EngName",
+        "value" : "Maeil Sinbo"
+      }, {
+        "label" : "Type",
+        "value" : "Newspaper"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://jisundh.github.io/whashin23iiif/annotations/6e4c14407fd46b73a69e07c13ed8a75f.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ]
+    }, {
+      "@id" : "http://f87a1c33-3934-421e-979b-032f386bbf42",
+      "@type" : "sc:Canvas",
+      "label" : "[Newspaper]19340804 Chosun Chungang 3p",
+      "height" : 4700,
+      "width" : 3531,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://657b496b-987e-4102-9176-d5ae6d581377",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/chosunchungang19340804_3_202308/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/chosunchungang19340804_3_202308",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4700,
+          "width" : 3531
+        },
+        "on" : "http://f87a1c33-3934-421e-979b-032f386bbf42"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "License",
+        "value" : "Copyright © National Library of Korea All Rights Reserved."
+      }, {
+        "label" : "SourceUrl",
+        "value" : "https://lod.nl.go.kr/page/CNTS-00095803117"
+      }, {
+        "label" : "Page",
+        "value" : "3"
+      }, {
+        "label" : "PublishDate",
+        "value" : "19340804"
+      }, {
+        "label" : "KoName",
+        "value" : "조선중앙일보"
+      }, {
+        "label" : "ChiName",
+        "value" : "朝鮮中央日報"
+      }, {
+        "label" : "EngName",
+        "value" : "ChosunChungang Ilbo"
+      }, {
+        "label" : "Type",
+        "value" : "Newspaper"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://jisundh.github.io/whashin23iiif/annotations/6ffc6777306007fd650028182ebc7966.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ]
+    }, {
+      "@id" : "http://2d0cfc2a-46b6-4002-bf02-49873fccb0ac",
+      "@type" : "sc:Canvas",
+      "label" : "[Photo]City street in front of Whashin Department Store in Jongno, Seoul",
+      "height" : 1000,
+      "width" : 1299,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3e63483d-ae42-4918-a039-4213696ad90a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/whashinnmkpan029257_202308/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/whashinnmkpan029257_202308",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1000,
+          "width" : 1299
+        },
+        "on" : "http://2d0cfc2a-46b6-4002-bf02-49873fccb0ac"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "License",
+        "value" : "Copyright © National Museum of Korea All Rights Reserved."
+      }, {
+        "label" : "SourceUrl",
+        "value" : "https://www.museum.go.kr/dryplate/searchplate_view.do?relicnum=029257"
+      }, {
+        "label" : "PublishDate",
+        "value" : "Unknown"
+      }, {
+        "label" : "KoName",
+        "value" : "서울 종로 화신백화점 앞 시가"
+      }, {
+        "label" : "ChiName",
+        "value" : "서울 鍾路 和信百貨店 앞 市街"
+      }, {
+        "label" : "EngName",
+        "value" : "City street in front of Whashin Department Store in Jongno, Seoul"
+      }, {
+        "label" : "Type",
+        "value" : "photo"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://jisundh.github.io/whashin23iiif/annotations/1150974fb863420909334f1751279302.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ]
+    }, {
+      "@id" : "http://63d6079b-d180-49da-bc30-1ec4e3767370",
+      "@type" : "sc:Canvas",
+      "label" : "[Postcard]Jongno Intersection in front of Whashin",
+      "height" : 3066,
+      "width" : 4606,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://93c7ae78-1b51-4117-82db-ba5c7441b111",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/whashinsmoh16047_202308/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/whashinsmoh16047_202308",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3066,
+          "width" : 4606
+        },
+        "on" : "http://63d6079b-d180-49da-bc30-1ec4e3767370"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "License",
+        "value" : "Copyright © Seoul Museum Of History All Rights Reserved."
+      }, {
+        "label" : "SourceUrl",
+        "value" : "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY807&type=D&upperNodeId=CTGRY807&fileSn=300&fileId=H-TRNS-103033-807"
+      }, {
+        "label" : "PublishDate",
+        "value" : "Unknown"
+      }, {
+        "label" : "KoName",
+        "value" : "화신 앞 종로 네거리"
+      }, {
+        "label" : "EngName",
+        "value" : "Jongno Intersection in front of Whashin"
+      }, {
+        "label" : "Type",
+        "value" : "Postcard"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://jisundh.github.io/whashin23iiif/annotations/11e667bf8fcdeee1bca4bd398f64836f.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ]
+    }, {
+      "@id" : "http://61eb1bdc-8ae5-47d5-83f4-f4bc63bd7535",
+      "@type" : "sc:Canvas",
+      "label" : "[Diary]19340402 Diary of Yun Ch'i-ho",
+      "height" : 4938,
+      "width" : 6902,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7099d989-8be7-4ccb-a89b-49d1fb0d3021",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://curate.library.emory.edu/iiif/2/bc476de03e9ebc0978a85e1aeb79225d78692e6d/311,259,3080,4460/800,/270/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://curate.library.emory.edu/iiif/2/bc476de03e9ebc0978a85e1aeb79225d78692e6d",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "bmp", "gif", "png", "webp", "jp2" ],
+              "maxArea" : 400000000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 4938,
+          "width" : 6902
+        },
+        "on" : "http://61eb1bdc-8ae5-47d5-83f4-f4bc63bd7535"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "License",
+        "value" : "Copyright © Emory Libraries All Rights Reserved. "
+      }, {
+        "label" : "SourceUrl",
+        "value" : "https://digital.library.emory.edu/catalog/0859cnp6sh-cor"
+      }, {
+        "label" : "CreatingDate",
+        "value" : "19340402"
+      }, {
+        "label" : "KoName",
+        "value" : "1934년 4월 2일자 윤치호 일기"
+      }, {
+        "label" : "EngName",
+        "value" : "Diary of Yun Ch'i Ho, April 2, 1934"
+      }, {
+        "label" : "Type",
+        "value" : "diary"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://jisundh.github.io/whashin23iiif/annotations/8adea3623a13471e9ee61095ab4528f7.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ]
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro", "http://example.org/iiif/book2/range/intro", "http://example.org/iiif/book3/range/intro", "http://example.org/iiif/book4/range/intro", "http://example.org/iiif/book5/range/intro", "http://example.org/iiif/book6/range/intro", "http://example.org/iiif/book7/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "1. [Magazine]193510 Sam Cheon Ri 142p",
+    "canvases" : [ "http://153eb355-d65f-472a-a5c6-39f3a1f8ec8c" ]
+  }, {
+    "@id" : "http://example.org/iiif/book2/range/intro",
+    "@type" : "sc:Range",
+    "label" : "2. [Magazine]193510 Sam Cheon Ri 143p",
+    "canvases" : [ "http://fa347023-75a8-4b86-a4bd-9786a836f593" ]
+  }, {
+    "@id" : "http://example.org/iiif/book3/range/intro",
+    "@type" : "sc:Range",
+    "label" : "3. [Newspaper]19371009 Maeil Sinbo 3p",
+    "canvases" : [ "http://c66df53a-e8c5-4ffd-8e0c-c5eef96b587d" ]
+  }, {
+    "@id" : "http://example.org/iiif/book4/range/intro",
+    "@type" : "sc:Range",
+    "label" : "4. [Newspaper]19340804 Chosun Chungang 3p",
+    "canvases" : [ "http://f87a1c33-3934-421e-979b-032f386bbf42" ]
+  }, {
+    "@id" : "http://example.org/iiif/book5/range/intro",
+    "@type" : "sc:Range",
+    "label" : "5. [Photo]City street in front of Whashin Department Store in Jongno, Seoul",
+    "canvases" : [ "http://2d0cfc2a-46b6-4002-bf02-49873fccb0ac" ]
+  }, {
+    "@id" : "http://example.org/iiif/book6/range/intro",
+    "@type" : "sc:Range",
+    "label" : "6. [Postcard]Jongno Intersection in front of Whashin",
+    "canvases" : [ "http://63d6079b-d180-49da-bc30-1ec4e3767370" ]
+  }, {
+    "@id" : "http://example.org/iiif/book7/range/intro",
+    "@type" : "sc:Range",
+    "label" : "7. [Diary]19340402 Diary of Yun Ch'i-ho",
+    "canvases" : [ "http://61eb1bdc-8ae5-47d5-83f4-f4bc63bd7535" ]
+  } ]
+}
